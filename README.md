@@ -47,8 +47,15 @@ OpenFrameworks empty example working on Visual Studio Code IDE.
                 "-j4"
             ],
  ```
+ * Addons : simply add your oF addons in addons.make file
  
  * Run Build Task with CTRL + SHIFT + B 
+ 
+ * Install the extension adds language support for C/C++ to Visual Studio Code and C++ Intellisense fo gcc-x86
+
+![Image](/imgs/3.png)
+
+* run 'make RunRelease' from visual studio code 
  
  
 
