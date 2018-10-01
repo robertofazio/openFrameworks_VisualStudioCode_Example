@@ -53,7 +53,7 @@ OpenFrameworks empty example working on Visual Studio Code IDE.
  
  * Install the extension adds language support for C/C++ to Visual Studio Code and C++ Intellisense fo gcc-x86
 
-![Image](/imgs/3.png)
+![Image](/imgs/4.png)
 
 * run 'make RunRelease' from visual studio code 
  
