@@ -9,20 +9,46 @@ OpenFrameworks empty example working on Visual Studio Code IDE.
 
 # Example project
 
- ### Copy and paste /openFrameworks_VisualStudioCode_Example into /apps/myApp
- ### Rename your project folder as you wish
- ### Rename openFrameworks_VisualStudioCode_Example.code-workspace with the same project name
- ### Open the folder with Visual Studio Code 
- ### Rename your OF workspace folder ( /home/robertofazio/of_v0.10.0_linux64gcc6_release )
-![Image](/imgs/2.png)
-
- ### In launch.json change your app name 
+ * Copy and paste /openFrameworks_VisualStudioCode_Example into /apps/myApp
+ * Rename your project folder as you wish
+ * Rename openFrameworks_VisualStudioCode_Example.code-workspace with the same project name
+ * Open the folder with Visual Studio Code 
+ * In c_cpp_properties.json rename your OF workspace folder
+ * In launch.json change your app name 
  
- ```
- "program": "${workspaceRoot}/bin/vscode_oF-master.app/Contents/MacOS/exampleVSC",
+```
+   "linux": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+                "program": "${workspaceRoot}/bin/exampleVSC"
 ```
 
  ![Image](/imgs/3.png)
+ 
+ * In task.json you can lauch a shell bash and create your task for Build 
+ 
+ ```
+ "tasks": [
+        {
+            "type": "shell",
+            "label": "OPENFRAMEWORKS BUILD RELEASE",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "command": "make",
+            "args": [
+                "-j4"
+            ],
+ ```
+ 
+ * Run Build Task with CTRL + SHIFT + B 
  
  
 
