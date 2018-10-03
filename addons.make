@@ -1,2 +1,3 @@
 ofxOpenCv
 ofxCv
+ofxMongo

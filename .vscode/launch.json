@@ -28,7 +28,7 @@
                         "ignoreFailures": true
                     }
                 ],
-                "program": "${workspaceRoot}/bin/exampleVSC"
+                "program": "${workspaceRoot}/bin/shelfix"
             },
             "osx": {
                 "MIMode": "lldb"
