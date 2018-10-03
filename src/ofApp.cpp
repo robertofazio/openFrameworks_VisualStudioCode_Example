@@ -23,7 +23,7 @@ void ofApp::update() {
 }
 
 void ofApp::draw() {
-	cam.draw(0, 0);
+	cam.draw(0, 0, ofGetWidth()/2, ofGetHeight()/2);
 	
 	for(int i = 0; i < finder.size(); i++) {
 		ofRectangle object = finder.getObjectSmoothed(i);
