@@ -61,7 +61,11 @@
                 "/home/robertofazio/of_v0.10.0_linux64gcc6_release/addons/ofxCv",
                 "/home/robertofazio/of_v0.10.0_linux64gcc6_release/addons/ofxCv/src",
                 "/home/robertofazio/of_v0.10.0_linux64gcc6_release/addons/ofxCv/libs/ofxCv/include",
-                "/home/robertofazio/of_v0.10.0_linux64gcc6_release/addons/ofxCv/libs/CLD/include/CLD"
+                "/home/robertofazio/of_v0.10.0_linux64gcc6_release/addons/ofxCv/libs/CLD/include/CLD",
+                "/home/robertofazio/of_v0.10.0_linux64gcc6_release/addons/ofxMongo/src",
+                "/usr/local/include/bsoncxx/v_noabi",
+                "/usr/local/include/mongocxx/v_noabi",
+                "/usr/local/lib"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,

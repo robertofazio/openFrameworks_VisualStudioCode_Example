@@ -12,6 +12,7 @@ void ofApp::setup() {
 	cam.setup(640, 480);
 	sunglasses.load("sunglasses.png");
 	ofEnableAlphaBlending();
+
 }
 
 void ofApp::update() {

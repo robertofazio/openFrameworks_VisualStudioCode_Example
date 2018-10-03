@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxCv.h"
+#include "ofxMongo.h"
 
 class ofApp : public ofBaseApp {
 public:
@@ -12,5 +13,6 @@ public:
 	ofVideoGrabber cam;
 	ofxCv::ObjectFinder finder;
 	ofImage sunglasses;
+	ofxMongo mongoClient;
 	
 };
